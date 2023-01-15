@@ -11,5 +11,3 @@ type ConnFactory interface {
 	// Ping 检查连接是否有效的方法
 	Ping(interface{}) error
 }
-
-// TODO: 支持接口函数化那个
